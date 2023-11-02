@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebff00450963e8652f51bbdef40cd1d, type: 3}
+  m_Name: MetaConfig
+  m_EditorClassIdentifier:
+  _numberGuestStart: 5
+  _perSecondCheckNewGuest:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: -0.375
+      outSlope: -0.375
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40
+      value: 5
+      inSlope: -0.375
+      outSlope: -0.375
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _perSecondBreakGuest: 30
+  _perSecondDontGOkNewGuest: 20
+  _waitingTakeAwayBottle: 1
+  _waitingTakeAwayBottleMin: 0.4
+  _waitingTakeAwayBottleMax: 1.3
+  _percentSmileGuest: 60
+  _waterMachinePercentFullAuPair: 80
+  _timeLoadEndGuest: {x: 1, y: 5}
+  _percentWorkStay: 30
+  _perSecondAfterTakeBottle: 2
+  _perSecondQueueAfterReocateBottle: 1.2
+  _perSecondQueueRelocateBottle: 0.3
+  _perSecondQueueRelocate: 0.12
+  _moneyCompleted: 150
+  _timeMinBusy: 90
+  _timeMaxBusy: 185
+  _bottleMachineMax: 21
+  _bottleMachineStart: 0
+  _bottleMachineDefault: 3
+  _incomePercent: 0
+  _incomePercentMax: 100
+  _coefIncomePercent: 5
+  _incomeStartBuy: 150
+  _coefIncomeBuy: 200
+  _speedTrainingPercent: 0
+  _speedTrainingPercentMax: 100
+  _coefSpeedTrainingPercent: 5
+  _speedStartBuy: 150
+  _coefSpeedBuy: 200
+  _coolerCapacityCount: 3
+  _coolerCapacityCountMax: 21
+  _coefCoolerCapacityCount: 3
+  _coolerCapacityStartBuy: 150
+  _coefCoolerBuy: 200
+  _bottleSizeCount: 3
+  _bottleSizeCountMax: 21
+  _coefbottleSizeCount: 1
+  _bottleSizeStartBuy: 150
+  _coefbottleSizeCountBuy: 200
+  _damage: 100
+  _damageMax: 1E+09
+  _coefDamage: 5
+  _damageStartBuy: 100
+  _coefDamageBuy: 50
+  _health: 100
+  _healthMax: 1E+09
+  _coefHealth: 5
+  _healthStartBuy: 100
+  _coefHealthBuy: 50
+  _healthEnemyBattle: 115
+  _damageEnemyBattle: 80
+  _upDamageEnemyBattle: 10
+  _upHealthEnemyBattle: 10
+  _percentEasy: 5
+  _percentMedium: 0
+  _percentHard: 20
+  _auPairWaitingTakeAwayBottle: 1
+  _auPairBottleSizeCount: 3
+  _timeBuy: 10
+  _howMuchBuyDiamond: 150
+  _howMuchBuyDiamondUp: 50
+  _maxPackMoney: 4
+  _maxEnergy: 50
+  _energyPlay: 25
+  _energyPerSecond: 36
+  _diamondStart: 30
+  _metaRotation: 1
+  _metaMoney: 0

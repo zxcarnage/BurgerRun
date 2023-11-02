@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd559f66107ba69b707c499db61f35, type: 3}
+  m_Name: AssGrowSettings_23
+  m_EditorClassIdentifier:
+  _scaleCurveDynamicGrow:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 4.5
+      inSlope: 6.5168285
+      outSlope: 6.5168285
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03774919
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _scaleCurveDynamicThin:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.37603927
+      value: 2.7261138
+      inSlope: 20.421844
+      outSlope: 20.421844
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.01652286
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.43312812
+      value: 2.7265828
+      inSlope: -22.052431
+      outSlope: -22.052431
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.018403646
+    - serializedVersion: 3
+      time: 0.7484131
+      value: 0.4973755
+      inSlope: -0.3313439
+      outSlope: -0.3313439
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0605369
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _scaleCurveFinishDynamicGrow:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6490602
+      value: 5.1697364
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _assSizeAtHealth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -5
+      value: -25
+      inSlope: 1.6007345
+      outSlope: 4.975765
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.024353027
+      value: 0
+      inSlope: 4.975765
+      outSlope: 4.9517765
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.38927326
+      outWeight: 0.08340859
+    - serializedVersion: 3
+      time: 2.337851
+      value: 11.455925
+      inSlope: 4.9517765
+      outSlope: 3.7487428
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 11.460659
+      value: 45.654987
+      inSlope: 3.7487428
+      outSlope: 4.304314
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06738336
+      outWeight: 0.0408397
+    - serializedVersion: 3
+      time: 30
+      value: 110
+      inSlope: 3.4707284
+      outSlope: 1.23818
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07794657
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _durationCorutineGrowUp: 0.35
+  _durationCorutineGrowDown: 0.4
+  _controlAssRotation: 1
+  _assLengthTwerk: {x: 0.35, y: 0.886}
+  _blendShapeMode: 0
+  _thinSizeAtHealth:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _thinSizeClamp: {x: 0, y: 0}

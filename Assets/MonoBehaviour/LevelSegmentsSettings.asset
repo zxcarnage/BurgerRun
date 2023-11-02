@@ -1,0 +1,1854 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a5e96e64076c551751f72f06346b1a, type: 3}
+  m_Name: LevelSegmentsSettings
+  m_EditorClassIdentifier:
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 2d01140000005f007300650067006d0065006e00740043006f006e007300740072007500630074006f007200730001010f0000005f0075007300650054007900700065005300650067006d0065006e0074002f00000000016a000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b005300650067006d0065006e00740054007900700065002c00200041007300730065006d0062006c0079002d004300530068006100720070005d002c005b00530079007300740065006d002e0049006e007400330032002c0020006d00730063006f0072006c00690062005d005d002c0020006d00730063006f0072006c00690062000000000001010800000063006f006d00700061007200650072002f01000000015b000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e0045006e0075006d0045007100750061006c0069007400790043006f006d0070006100720065007200600031005b005b005300650067006d0065006e00740054007900700065002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c0020006d00730063006f0072006c0069006200010000000600000000000000000705060c00000000000000042e1d010200000024006b000b00000000000000170102000000240076000300000005042e1d010200000024006b000c00000000000000170102000000240076000100000005042e1d010200000024006b001400000000000000170102000000240076000500000005042e1d010200000024006b001000000000000000170102000000240076000500000005042e1d010200000024006b000d00000000000000170102000000240076000100000005042e1d010200000024006b000a00000000000000170102000000240076000100000005042e1d010200000024006b000700000000000000170102000000240076000400000005042e1d010200000024006b000900000000000000170102000000240076000500000005042e1d010200000024006b000500000000000000170102000000240076000100000005042e1d010200000024006b001300000000000000170102000000240076000100000005042e1d010200000024006b000200000000000000170102000000240076000100000005042e1d010200000024006b0017000000000000001701020000002400760002000000050705
+    ReferencedUnityObjects: []
+    SerializedBytesString:
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _countObstacle: 5
+  _sameObstacle: 2
+  _newObstacle: 3
+  _useRepeatObstacle: 2
+  _anExceptionObstacle: 3
+  _damageObstacle: 3
+  _countAss: {x: 32, y: 34}
+  _sumLenghtSegment: {x: 5, y: 15}
+  _sumLenghtSegmentUp: {x: 4, y: 7}
+  _startSegment:
+  - SegmentLevelStart:
+      _segmentPrefab:
+        m_AssetGUID: 68673a03c3a994125b383a89c6276020
+        m_SubObjectName:
+        m_SubObjectType:
+      _segmentType: 21
+      _lenghtSegment: 1
+      _assHealthSegment: 0
+      _startEntrance: 0
+      _endEntrance: 0
+      _isAfterSegmentConnect: 1
+    percentSegment: 0
+  - SegmentLevelStart:
+      _segmentPrefab:
+        m_AssetGUID: 0d9728503e8724c1aabe2895993690da
+        m_SubObjectName:
+        m_SubObjectType:
+      _segmentType: 0
+      _lenghtSegment: 1
+      _assHealthSegment: 0
+      _startEntrance: 0
+      _endEntrance: 0
+      _isAfterSegmentConnect: 1
+    percentSegment: 25
+  _finishConnect:
+    _segmentPrefab:
+      m_AssetGUID: fcfca4b0b52f04c3d91008956ef305de
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 18
+    _lenghtSegment: 2
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  _segmentConnect:
+    _segmentPrefab:
+      m_AssetGUID: e10fe8227c26745c2945fb65fe9e3b16
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 18
+    _lenghtSegment: 1
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  _segmentsFull:
+  - _segmentPrefab:
+      m_AssetGUID: 9872f1752017d4a1889b9ea662f2e0ff
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 4
+    _lenghtSegment: 6
+    _assHealthSegment: 4
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 808c61c4ea27d461aba15619ef6630a8
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 4
+    _lenghtSegment: 6
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: ab1b4325e8e594713ab12ab51f8d045f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 4
+    _lenghtSegment: 6
+    _assHealthSegment: 3
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c8d560d2258334b9688b6242b2f919fe
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 4
+    _lenghtSegment: 6
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 72ee3cae29232490f831a309672d9c55
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 2
+    _lenghtSegment: 2
+    _assHealthSegment: -5
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 567a359f46e0f4a4fb89ae82eafbf1ed
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 2
+    _lenghtSegment: 5
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: cea0bd2b682dc4210acb14b7aeead12b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 2
+    _lenghtSegment: 5
+    _assHealthSegment: 4
+    _startEntrance: 1
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 938b0b8d9157d4089b25b0559c4a33eb
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 2
+    _lenghtSegment: 2
+    _assHealthSegment: -5
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 8e733c7398f3245dab18b36bf7192c8b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 2
+    _lenghtSegment: 2
+    _assHealthSegment: -5
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 24a0bc446ee8d4b8586adb94a2194c1f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 19
+    _lenghtSegment: 3
+    _assHealthSegment: 0
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c65e7f4cf63524daeac4c90ed687cd38
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 19
+    _lenghtSegment: 3
+    _assHealthSegment: 1
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 89633242dd0e64b3eb9856fc11708142
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 19
+    _lenghtSegment: 2
+    _assHealthSegment: 0
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 1ca313637db024909af23ea79fc7cce2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 19
+    _lenghtSegment: 2
+    _assHealthSegment: 0
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 0735805508e2f4eed8c743b05b64f932
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 2
+    _assHealthSegment: 2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c11a71ad1be8448beb91c9e546c48855
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 4d7087eeaa6374fe09c4f39ee61b6561
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 0f68d2a4c639d47b0b7c363b6f9189a4
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 8fe67f40713a24e04bd300b8b3dfcaf6
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 22
+    _lenghtSegment: 2
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: b7ea04ced189b4341983b6b1798ced06
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: -2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 444ca17292c104df49bc859c5bcc3ec7
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: -2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 8cf1fbbe639b94c0182e4c07cb505393
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: -2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 10cfa9cf3a27b49cfb5d7075368cd7a5
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: -2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 3cdd5cb298028452a8afa9d643d98c7f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: -3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 164384b8530db4b0bbfcd9fefb89d577
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: 1
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 78ac03b34fc4941d4970f07ead7d76fd
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 10
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 3f1802a5d4f05428a9f8c1dec3768149
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 11
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: e3b8ef634499f4e62bb52cb6939bfb9c
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 11
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: fc3baea5a6f9b4a058107de404db40d1
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 11
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: d2fa6a18b9dc542ce9fa1466c9c8b0f2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 11
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 195f491630ac54477b439ebf774a98f9
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: d33810b68acbd4b0d84fa3edacc2a9f8
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 453b6ebd92d014b4490236c8ead9ca12
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 7
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 9572a4b1fd76f477e95242eb2fd68acb
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 01ffb2aa309884502b1f3be6fd19bd56
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 8
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 481802ba7bb954a2d812e0fef8155766
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 12
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 7b0a69550b94240c6907e3c53157b342
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: f8583f7bdd908418083cce2801c381cb
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 4
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c7ad9e9bb2cc54dca9a9d3fa9d8a93a2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c26c14bdc494a4ab48c7fda9592c8b8f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 8
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 43a24c43db63c4fbe8ac73c9b8561e41
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 1dee0c57f7da5463bbac318d6eed9181
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 5270c18b95ac44aaeb0b425fc9e78e1b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: fef977afb79de4069a91b2eb2b3f5393
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: f769272431a9d4fb09ade7594ab17f2d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 11
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: ed3bd73753db340ef81652dec3c58491
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 24239d8b8664e48a8916fddbb0dc0672
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 5
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 38015efc7d05446d2b83967bf64faa78
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 94d10dec20b8344ce8cc0f5c1053c424
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a4b331cbdba0a41f09e25bd0cc85e4ef
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 15af5c6a18d434d3ca09bb235ee993e2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 9b6abb986f6524ba6803d6fac10cb96a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: cadacf989e9cf4c86a88088674086e8e
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 374857abbef2d4f2cbd94fafd0e52d83
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 36afd34a888ea40c287f30814fdf7203
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 5afbab1671d134b05b91beb089e495fe
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0b4880e6f42ed4846b21fab6c1c13921
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 2ea01c7cfd009411a853f269f3810345
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 9
+    _assHealthSegment: 20
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 52d4422894fb34986a1b85ccb8dd4eef
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: dbc9e178ea14448938c15ba158225626
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 27593c5dc17ed4521bdc0680d641d341
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 13
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c8521def843e7403799366fc6f841cf1
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 871ba210a2f7b4efe8cdf6dd9f1777b2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: e659150531f7f4de9a34f2eacc414ee9
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: ddaa28c42facc48d89e170c2ee22619d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: f7cd334bb9dbd48948e0faf52a913015
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: d881138db19634af989da4a34599e215
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 9dcf354391f014f11af18ceeb45d7733
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 8a7ff675d8bbb49dc8eb46908489ed6a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 1c73604e5505e48499cc1ba476b90f42
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: fce0126f635e94cfea243408d9869bbb
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: f13f728b3d9ef4bb29ad49556ca97952
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: be5f0ffd56d464976ac235fd60fee39b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 8
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a1a895f0c317f4360a47c0173999393a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: fb380f73f30d2475c8eef1d11d21e9a3
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: d735f42678da4406c88647bbd0c5ac0e
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 13
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 563f4d02eff5c4118b9d5a8d53b8ddf7
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a38c0c29cca214419855e6c7aaa850b2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: e18c0b6bafdcd4433aee3c2b6a68eb2b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 282d550504df64af49dee046abc7e507
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 6
+    _assHealthSegment: 12
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 4f96188e9b2904e5ebb68eb723e1e985
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 79b87830542824cb4b8f3b1cfc5fc093
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 12
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 2150a06c58ce44a15af3303f22ed5139
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 9
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: fe0fb2bfa465e4eb3bff62701095f36f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 9
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 87281e903caa447e99227419679f1839
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: dbea8f5d560b94f63a0f00653c4c1c3b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 8
+    _startEntrance: 3
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c9b98082817d44841859eaf876011869
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 68dd32ac12ca14ed1bf1d4eed4b0ea2d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 5a3d47b36ebe44478a42f23e47741bd2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 6df0d6577707a40d6a88abd716a84a63
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 2
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 4676c13afa2324de2bcc646f08beeb26
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 29435498d70e74fc29de1fecf5d2abf3
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: b430cd1064db840a889b54fd65f02f39
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c6d9b6c36d27b49e59aed08a2ae5b0ab
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 3199f0268118142a39f1d4a164e7a518
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 142789aa6befe4d4597afaf3f43d1786
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 1016d7b38ba2d4d87b37f9a54b9ace33
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: b0c4e66d3eac9446883f65ebad9dd745
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 9728e67f91df747b28990ee068446c50
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 9
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: a2c2d2a4021e54916867766e471d61d9
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 16
+    _lenghtSegment: 1
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0824ecbb3f83e44e7a14cb2dd864ec51
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 16
+    _lenghtSegment: 3
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 3b1a07d36bda249bdb23c3c44f31ed8c
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 16
+    _lenghtSegment: 1
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: ef80c7005d3e44a4dbb490fa6ed0d26a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 16
+    _lenghtSegment: 3
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c74d001d12e6d4b76af54edb8dacb420
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 16
+    _lenghtSegment: 3
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 74561c7d56d834638aed757e8a00abea
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 5
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: d874503627708445ab6514f5ccd41328
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: ad80f64bbee2c441fad1cc51748eaf80
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 4
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 03c8628e7c8c44253b71efe7940e619b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 641e9247ec85f447086208c03b973734
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 5
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 4c96e0fc314884ce5829475845979929
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0b359fd080bdf4ede847ce5ab69a658d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 6760b7b68f35443628ae4af104dd2c49
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: f056222777f344d7999eca0e8b52f4db
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c9a18f26034964aa39c1f0cbcab3407d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 15
+    _lenghtSegment: 2
+    _assHealthSegment: 3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 103da6b36818c4aefa349311e90b5b50
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 14
+    _lenghtSegment: 5
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: aa3d7e19c3d5d47bab5e0b70a7370810
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 14
+    _lenghtSegment: 4
+    _assHealthSegment: 8
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a5cce9d223413496fb455450b3852124
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 14
+    _lenghtSegment: 5
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: e3bab50ae04d2415aa51c30f91620db8
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 14
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 5e322a99dba6f464096e7b4c3864f09f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 5
+    _lenghtSegment: 10
+    _assHealthSegment: 14
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 02242a0eec18a47f99c064824474068b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 5
+    _lenghtSegment: 10
+    _assHealthSegment: 14
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0692eb6d2246f4f25812ec65fbae7e3c
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 5
+    _lenghtSegment: 10
+    _assHealthSegment: 9
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: b6a6cf29cb89a4c6d8a2d1ce63ee4a82
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 5
+    _lenghtSegment: 10
+    _assHealthSegment: 7
+    _startEntrance: 2
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: ad06e0163adc54a32a4af55c57b0b366
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 7
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: b48de13dbae52403f8b660e922dc9545
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 8
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 9aa8fd085091f481283231c14c62c4ac
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 098a33a7c397a477499b97b30ac0dcc6
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 5
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: ac9addcba45dd4f78815fc820c696ecf
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 1b23e7985031d436ba40c4ab6d0b20a2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 6
+    _assHealthSegment: 12
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 2ef1225c0aa644e4eaf0fa6e588490ca
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 6
+    _assHealthSegment: 9
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 4a7d6d708fae7438592bcc57d4ba0564
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 1
+    _assHealthSegment: 3
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 5f76cd2706b644c49a581c11dc623ff9
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 7
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a8d7037a55e974a34845e0918ded911c
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 11
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 76525e7f639e04dba8095bd3238f679d
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 3
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 5792618f04717485e99a0c6e95707d94
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 2
+    _assHealthSegment: 5
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: b6eef5f148d8e4213a021e10f7695b18
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 78d635999cbc948ad97f1db55705cb7f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: e373250147c19426995264f3096cf3e3
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 7
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 65cee43913fe44c66955c46b3f986154
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 4
+    _assHealthSegment: 11
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0ed4ad419d82a48a2beffd64310dfaef
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 5
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: e11234ac1dfa345ea929f7eeff298011
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 6
+    _assHealthSegment: 13
+    _startEntrance: 1
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c0715751de78d46568e1e45fd49bff7a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 1
+    _lenghtSegment: 3
+    _assHealthSegment: 8
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 0f766fe32f67e4ee58066b9ee3def373
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 13
+    _lenghtSegment: 6
+    _assHealthSegment: 8
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: fa8e942e0928446848ba78220b95f9d1
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 13
+    _lenghtSegment: 4
+    _assHealthSegment: 8
+    _startEntrance: 2
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: fb3d049451d3a41e3b371ec407e558c1
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 13
+    _lenghtSegment: 4
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 39650b195174746969e62bb4cd8cee34
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 13
+    _lenghtSegment: 4
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 855b0322434ac4d1285f7348a7b906bc
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 4
+    _assHealthSegment: 6
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 115ee4751ec0749788cda0f23fd3be7e
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 4
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 894cc4d0c410143269dabe01a107263b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 4
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 7e904856e117b42f588933bd400e0640
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 4
+    _assHealthSegment: 6
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: f782ac15133984ee9845a5fcfe7c4ed3
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 12
+    _lenghtSegment: 4
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 2bddd679f25bb488a96c308209cf37d5
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 4
+    _assHealthSegment: 7
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: dffe826ecbc8441a6a05f3bc52ead796
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 5
+    _assHealthSegment: 4
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: a7442496ff24e4a6483bdb796da09fee
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 4
+    _assHealthSegment: 8
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 026fdc59be69541ffbbcc7e234aa61db
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 2
+    _assHealthSegment: 2
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: f95bed0919f3f41bd85838006ec2d4a3
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 2
+    _assHealthSegment: 2
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 8fafedfbb466a43c5b05b32fedf5381e
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 1
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: b35d33a77d0674d9d9856127f70f50c1
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 20
+    _lenghtSegment: 4
+    _assHealthSegment: 9
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 27f1f30f12f7a4191a601d9974bd4896
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 7
+    _lenghtSegment: 6
+    _assHealthSegment: 4
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 2c90c1ff0ddfd44e282b8e93cd296d1b
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 7
+    _lenghtSegment: 5
+    _assHealthSegment: 2
+    _startEntrance: 3
+    _endEntrance: 1
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 3f3652e8b0fa949b9849db8289ff1e27
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 7
+    _lenghtSegment: 5
+    _assHealthSegment: 2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: c061cfbe4302e4e788a6c80421a8ddee
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 7
+    _lenghtSegment: 7
+    _assHealthSegment: -1
+    _startEntrance: 2
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 91442b5c3c88843ec907c934229c5704
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 7
+    _lenghtSegment: 7
+    _assHealthSegment: -1
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 2e464640469fc4e22974621ade6c1508
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: f2cf7ee0a790b4ecdb6e01c0746541df
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 2ed4569a8a6e84f72a9e32ec15dfe5da
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: 6
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 3c932e617068d4344883e064eac587bd
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: -3
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: c8874c7d35a3647628fa363b50942737
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: -4
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: edbec8b03d9b9433e9e6663ca6e6d7d2
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 2
+    _assHealthSegment: -4
+    _startEntrance: 1
+    _endEntrance: 1
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: af19ff35422194972ae2a23768feae1f
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 3
+    _assHealthSegment: 6
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: 88b340538424843e6a6e8dafe3cd9544
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 3
+    _assHealthSegment: 3
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: e3eecfbd2f2e449b69fb3ba44aca6b94
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 3
+    _assHealthSegment: 2
+    _startEntrance: 3
+    _endEntrance: 3
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: bada087bf25f04beebb0c8fec52cae0a
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 8
+    _lenghtSegment: 3
+    _assHealthSegment: 2
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 1
+  - _segmentPrefab:
+      m_AssetGUID: cb179e95fc5ad41e99f0cc413a6332d0
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 21
+    _lenghtSegment: 2
+    _assHealthSegment: 0
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 65f0a28fc16904a3abfcd2ec4605a117
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 23
+    _lenghtSegment: 12
+    _assHealthSegment: 11
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 0b39326f153f74186bf59a056aa26ac0
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 23
+    _lenghtSegment: 12
+    _assHealthSegment: 10
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 627c2b6b836564f19a59114d484be754
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 23
+    _lenghtSegment: 12
+    _assHealthSegment: 14
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 0cb3fbbc7831b433c89e4df6350bdd21
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 23
+    _lenghtSegment: 12
+    _assHealthSegment: 13
+    _startEntrance: 0
+    _endEntrance: 0
+    _isAfterSegmentConnect: 0
+  - _segmentPrefab:
+      m_AssetGUID: 0e929281adf744f549820baf02d21bbb
+      m_SubObjectName:
+      m_SubObjectType:
+    _segmentType: 23
+    _lenghtSegment: 12
+    _assHealthSegment: 16
+    _startEntrance: 2
+    _endEntrance: 2
+    _isAfterSegmentConnect: 0
+  _segments: []
+  _segmentsNew: []
+  _segmentsCash: []
+  _segmentsLastLevel: []

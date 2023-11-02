@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636954d85a5e0d8bbf0867c5b0d4cff9, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  _minXP: -2
+  _maxXP: 30
+  _speedForward: 12
+  _speedForwardFinish: 16
+  _speedForwardDown: -0.1
+  _speedForwardTreadmillDown: -1.2
+  _speedForwardBeamsRotate: 16
+  _speedForwardSlide: 14
+  _speedForwardFan: 9
+  _speedForwardFall: 3
+  _speedForwardBeam: 6
+  _multiplayForward: 2.2
+  _speedSide: 2
+  _speedSideSlide: 2.2
+  _speedSideJump: 2
+  _speedSideSneek: 0.05
+  _speedSideFall: 0.1
+  _speedSideBeam: 5
+  _maxSpeedSide: 15
+  _speedAngleSideBeam: 8
+  _speedTouchAngleSideBeam: 5
+  _rotateBeamsSpeed: 2
+  _deadZoneSwipe: 10
+  _swipeDeltaOffset: 1.8
+  _angleBeam: 50
+  _bounceBeam: 11
+  _damageWell: 5
+  _damagePerSecRun: 1
+  _damagePunchGirl: 5
+  _damageJumpTrampoline: 2
+  _damagePunchWell: 9
+  _damageSlide: 1
+  _durationDeath: 1.2
+  _durationTimeScale: 20
+  _durationStandUp: 1
+  _durationPunchTime: 0.5
+  _durationDamageSlide: 0.3
+  _speedRotateSlide: 8
+  _animationSlow: 0.12
+  _arraySpeedAnim:
+  - 1.5
+  - 1.2
+  - 1.2
+  - 1.2
+  - 1.2
+  - 1.2
+  - 1.2
+  _tapUpSpeed: 0.07
+  _speedDeflationFan: 5
+  _speedForcePunch: 10
+  _clampX: 3.6
+  _raycastLenght: 6
+  _screenWidth: 0.8
+  _treadmillTime: 0.3
+  _praiseBurger: 10
+  _isRunNew: 0
+  _vibrationConfigWellDestoyed: {fileID: 11400000, guid: 7649d0ebf4fea3a41a3ecb6270e428c1, type: 2}
+  _vibrationConfigTrampoline: {fileID: 11400000, guid: 7649d0ebf4fea3a41a3ecb6270e428c1, type: 2}
+  _vibrationConfigCheeseDeath: {fileID: 11400000, guid: f27a1244d22153841b1a1fc7cda401e2, type: 2}
+  _vibrationConfigRun: {fileID: 11400000, guid: feb2b5622d4b5394eb042e45fb8a558c, type: 2}
+  _vibrationFanRun: {fileID: 11400000, guid: 9a9979104725c90479d726652a44c859, type: 2}

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b23f803d920fcc7f63d93e41f1a25d, type: 3}
+  m_Name: ArenaConfigWin
+  m_EditorClassIdentifier:
+  _namePlayer: YOU
+  _pointPlayerStart: 1000
+  _numberPlayersStart: 2000
+  _globalRating:
+  - NameTitle:
+      mTerm: LEAGUE_BRONZE
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 0
+    RaitingPoint: 0
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 3202d14e13de08c4eabd8466157aee64, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: 41872740ed57fc544a4c775eb2011b0c, type: 2}
+    ColoringLeagueTitle: {r: 0.85882354, g: 0.6627451, b: 0.5647059, a: 1}
+    ColoringLeague: {r: 1, g: 0.8352942, b: 0.7490196, a: 0.3137255}
+    ColoringHeroesLeague: {r: 1, g: 0.8588236, b: 0.7843138, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_SILVER
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 1
+    RaitingPoint: 1500
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 1d43825853782f347940601c40cca05e, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: e961c9030119ce24cb5b11530c870f3a, type: 2}
+    ColoringLeagueTitle: {r: 0.6039216, g: 0.654902, b: 0.7882353, a: 1}
+    ColoringLeague: {r: 0.6862745, g: 0.7254902, b: 0.81568635, a: 0.3137255}
+    ColoringHeroesLeague: {r: 0.8313726, g: 0.86274517, b: 0.9333334, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_GOLD
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 2
+    RaitingPoint: 2250
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: ce8ff194631253f4585bbb8e12f39d9f, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: 86bc24ba65e733f4c99b08b08d5a29c6, type: 2}
+    ColoringLeagueTitle: {r: 1, g: 0.7294118, b: 0, a: 1}
+    ColoringLeague: {r: 1, g: 0.91372555, b: 0.3137255, a: 0.3137255}
+    ColoringHeroesLeague: {r: 1, g: 0.9490197, b: 0.58431375, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_PLATINUM
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 3
+    RaitingPoint: 3300
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 8a784e0517970a8458195b7b75c4c631, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: 544c0a7c051344f4ebcc09125a512058, type: 2}
+    ColoringLeagueTitle: {r: 0.8313726, g: 0.5882353, b: 0.5882353, a: 1}
+    ColoringLeague: {r: 0.8980393, g: 0.64705884, b: 0.6509804, a: 0.3137255}
+    ColoringHeroesLeague: {r: 0.95294124, g: 0.80392164, b: 0.80392164, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_RUBY
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 4
+    RaitingPoint: 4600
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 40375cc4258fe7a4a8897a8e5d3f240d, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: 700ef1ac66b7cfa48b3b8e8777687a5c, type: 2}
+    ColoringLeagueTitle: {r: 1, g: 0, b: 0.12959099, a: 1}
+    ColoringLeague: {r: 1, g: 0.38655254, b: 0.31372547, a: 0.3137255}
+    ColoringHeroesLeague: {r: 1, g: 0.58431375, b: 0.6149187, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_EMERALD
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 5
+    RaitingPoint: 5800
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 039187942ac394a41bd988fff352676b, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: 12910ca3a4d259b4fb0696cf8aac11c3, type: 2}
+    ColoringLeagueTitle: {r: 0, g: 1, b: 0.18392253, a: 1}
+    ColoringLeague: {r: 0.31372547, g: 1, b: 0.428352, a: 0.3137255}
+    ColoringHeroesLeague: {r: 0.58431375, g: 1, b: 0.6463928, a: 1}
+  - NameTitle:
+      mTerm: LEAGUE_DIAMOND
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    ArenaType: 6
+    RaitingPoint: 7000
+    SpriteLeagueHeroesTitle: {fileID: 21300000, guid: 5057b291b2cf17e409ce248bab97d0df, type: 2}
+    SpriteLeagueCupTitle: {fileID: 21300000, guid: cbc5e0880c2873f43b1089fae51dd080, type: 2}
+    ColoringLeagueTitle: {r: 0, g: 0.9717827, b: 1, a: 1}
+    ColoringLeague: {r: 0.31372547, g: 1, b: 0.9431567, a: 0.3137255}
+    ColoringHeroesLeague: {r: 0.58431375, g: 1, b: 0.97239655, a: 1}
+  _pointsFirstFakePlayer: 8500
+  _pointsRandomStartAdd: {x: 50, y: 200}
+  _pointsRandombBattleHealthAdd: {x: -5, y: 15}
+  _pointsRandombBattleDamageAdd: {x: -5, y: 15}
+  _pointsWin: {x: 135, y: 165}
+  _pointsLose: {x: 30, y: 50}
+  _perSecondRecalculation: 60
+  _countFakePlayGameEnemy: 2
+  _perSecondRecalculationLongTime: 500
+  _countFakeLongPlayGameEnemy: 5
+  _viewDownAndUpEnemyDashboard: 90
+  _leagueShift: 110
+  _offsetLeaguePoisitonPlayer: 1
+  _positionToScroll: {x: 219.8, y: 109.9, z: 0, w: -153.5}

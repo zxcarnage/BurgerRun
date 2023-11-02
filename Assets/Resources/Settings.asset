@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbd0aa0a608113729ded3dc0f78ac18, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  _privacyPolicySettings:
+    _isPrivacyPolicyEnabled: 1
+    _iosPrivacyPolicyLink: https://freeplay.io/games/ios/privacy/
+    _androidPrivacyPolicyLink: https://freeplay.mobi/games/android/privacy/
+  _loggingSettings:
+    _editorLogLevel: 0
+    _debugBuildLogLevel: 0
+    _releaseBuildLogLevel: 1
+  _analyticsSettings:
+    _useLegacyEventSystem: 1
+    _isFacebookEnabled: 1
+    _isGameAnalyticsEnabled: 1
+    _isAppMetricaEnabled: 1
+    _isAppsFlyerEnabled: 1
+    _isFirebaseEnabled: 1
+  _facebookSDKSettings:
+    _appName:
+  _gameAnalyticsSettings:
+    _iosGameAnalyticsGameKey: c9899f9bd302b06fd032b81456bb18d5
+    _iosGameAnalyticsSecretKey: c5de1b1807f109e7fe02222f258742311b227255
+    _androidGameAnalyticsGameKey: e8c886dd79e2f31d5603d439d54b8356
+    _androidGameAnalyticsSecretKey: ff49bd7a246e3e90d4f2518da5fcec42a71ac143
+  _appMetricaSettings:
+    _appMetricaApiKey: e44c3994-6a49-496b-af8d-352bbf9b5c03
+  _firebaseSettings:
+    _activeModules: -1
+  _appsFlyerSettings:
+    _appsFlyerDevKey: vahRt3P9TYBD4Sd72WZgqD
+    _appsFlyerAndroidDevKey: DYMqNdeZNN32g4VHMPJsVD
+    _iosAppId: 1606386511
+  _advertisingSettings:
+    _isEditorAdsEnabled: 0
+    _isIronSourceEnabled: 1
+    _isAppLovinEnabled: 0
+    _supportedAdModules: -1
+  _ironSourceSettings:
+    _ironSourceIosAppKey: 13203cf0d
+    _ironSourceAndroidAppKey: 11ce41895
+    _bannerPosition: 2
+    _bannerSize: 3
+    _adMobSettings:
+      _adMobIosAppID: ca-app-pub-8236392776689719~9213789276
+      _aDMobAndroidAppId: ca-app-pub-8236392776689719~6445416510
+  appLovinSdkSettings:
+    _sdkKey:
+    _adModulesSettings:
+    - _adType: 4
+      _iosModuleID:
+      _androidModuleId:
+    - _adType: 2
+      _iosModuleID:
+      _androidModuleId:
+    - _adType: 1
+      _iosModuleID:
+      _androidModuleId:
+    _appLovinBannerPosition: 7
+    _bannerBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    _adMobSettings:
+      _adMobIosAppID:
+      _aDMobAndroidAppId:
